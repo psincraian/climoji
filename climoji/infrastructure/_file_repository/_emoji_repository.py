@@ -1,7 +1,7 @@
 from typing import Optional
 
-from pymoji.domain.model import EmojiRepository, Emoji
-from pymoji.infrastructure._file_repository._emoji_list import EMOJI_ALIAS_UNICODE
+from climoji.domain.model import EmojiRepository, Emoji
+from climoji.infrastructure._file_repository._emoji_list import EMOJI_ALIAS_UNICODE
 
 
 class FileEmojiRepository(EmojiRepository):

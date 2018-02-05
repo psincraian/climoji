@@ -1,7 +1,7 @@
 import click
 
-from pymoji.domain.exception import DomainException
-from pymoji.infrastructure import container
+from climoji.domain.exception import DomainException
+from climoji.infrastructure import container
 
 
 @click.group()

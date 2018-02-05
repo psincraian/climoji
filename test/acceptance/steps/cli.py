@@ -1,7 +1,7 @@
 from behave import when, then
 from behave.runner import Context
 
-from pymoji.infrastructure import _command
+from climoji.infrastructure import _command
 
 
 @when("I make a call to {method} with {arguments}")

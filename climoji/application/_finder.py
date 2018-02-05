@@ -1,5 +1,5 @@
-from pymoji.domain.exception import EmojiNotFoundException
-from pymoji.domain.model import EmojiRepository, Emoji
+from climoji.domain.exception import EmojiNotFoundException
+from climoji.domain.model import EmojiRepository, Emoji
 
 
 class Finder:
