@@ -4,6 +4,7 @@
   />
 </p>
 <p align="center">
+<a href="https://badge.fury.io/py/climoji"><img src="https://badge.fury.io/py/climoji.svg" alt="PyPI version" height="18"></a>
 </p>
 <h2 align="center"><code>climoji</code></h2>
 
