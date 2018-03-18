@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="climoji",
-    version="1.0.1",
+    version="2.0",
     packages=find_packages(),
     author="Petru Rares Sincraian",
     author_email="psincraian@gmail.com",
@@ -16,6 +16,6 @@ setup(
         ]
     },
     install_requires=[
-        'click>=6.7,<7'
+        'click>=6.7,<7', 'editdistance<1.0'
     ]
 )

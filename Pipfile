@@ -8,6 +8,7 @@ url = "https://pypi.python.org/simple"
 [packages]
 
 click = "*"
+editdistance = "*"
 
 
 [dev-packages]
