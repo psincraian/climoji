@@ -21,7 +21,7 @@ pip install climoji
 ## 🚀 Using climoji
 Using climoji is as easy as type
 ```commandline
-climoji show :rocket:
+climoji search rocket
 ```
 
 And a 🚀 will appear 😄
