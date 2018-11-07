@@ -5,7 +5,7 @@ with open('README.md', 'r') as f:
 
 setup(
     name="climoji",
-    version="2.0.2",
+    version="3.0.0",
     packages=find_packages(),
     author="Petru Rares Sincraian",
     author_email="psincraian@gmail.com",
