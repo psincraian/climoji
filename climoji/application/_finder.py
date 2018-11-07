@@ -27,3 +27,6 @@ class Finder:
         most_similar.sort(key=lambda t: t[0])
 
         return [emoji for _, emoji in most_similar[:self.ITEMS_TO_RETRIEVE]]
+
+    def all(self) -> List[Emoji]:
+        return self._emoji_projection.all()

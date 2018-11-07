@@ -11,6 +11,12 @@ def step_impl(context: Context, method: str, arguments: str):
     context.result = context.cli.invoke(method, arguments)
 
 
+@when("I make a call to {method}")
+def step_impl(context: Context, method: str):
+    method = getattr(_command, method)
+    context.result = context.cli.invoke(method)
+
+
 @then("I want to see the following")
 def step_impl(context: Context):
     assert context.text in context.result.output, "Get {}".format(context.result.output)

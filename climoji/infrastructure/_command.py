@@ -25,3 +25,10 @@ def search(word: str):
     emojis = container.finder().search(word)
     for pos, emoji in enumerate(emojis):
         click.echo('[{}] {}  - {}'.format(pos + 1, emoji.emoji, emoji.alias))
+
+
+@cli.command()
+def all():
+    emojis = container.finder().all()
+    for pos, emoji in enumerate(emojis):
+        click.echo('[{}] {}  - {}'.format(pos + 1, emoji.emoji, emoji.alias))
